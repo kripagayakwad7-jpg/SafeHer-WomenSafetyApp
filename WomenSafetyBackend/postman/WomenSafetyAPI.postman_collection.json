@@ -1,0 +1,77 @@
+{
+  "info": {
+    "name": "Women Safety System API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Register",
+      "request": {
+        "method": "POST",
+        "header": [{"key": "Content-Type", "value": "application/json"}],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"name\": \"Jane Doe\",\n  \"email\": \"jane@example.com\",\n  \"phone\": \"9876543210\",\n  \"password\": \"password123\"\n}"
+        },
+        "url": "http://localhost:8080/api/register"
+      }
+    },
+    {
+      "name": "Login",
+      "request": {
+        "method": "POST",
+        "header": [{"key": "Content-Type", "value": "application/json"}],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"email\": \"jane@example.com\",\n  \"password\": \"password123\"\n}"
+        },
+        "url": "http://localhost:8080/api/login"
+      }
+    },
+    {
+      "name": "Get Profile",
+      "request": {
+        "method": "GET",
+        "url": "http://localhost:8080/api/profile/1"
+      }
+    },
+    {
+      "name": "Add Contact",
+      "request": {
+        "method": "POST",
+        "header": [{"key": "Content-Type", "value": "application/json"}],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"userId\": 1,\n  \"contactName\": \"Mom\",\n  \"phoneNumber\": \"9123456789\"\n}"
+        },
+        "url": "http://localhost:8080/api/contacts"
+      }
+    },
+    {
+      "name": "Get Contacts",
+      "request": {
+        "method": "GET",
+        "url": "http://localhost:8080/api/contacts/1"
+      }
+    },
+    {
+      "name": "Trigger SOS",
+      "request": {
+        "method": "POST",
+        "header": [{"key": "Content-Type", "value": "application/json"}],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"userId\": 1,\n  \"latitude\": 12.9716,\n  \"longitude\": 77.5946\n}"
+        },
+        "url": "http://localhost:8080/api/sos"
+      }
+    },
+    {
+      "name": "SOS History",
+      "request": {
+        "method": "GET",
+        "url": "http://localhost:8080/api/sos/history/1"
+      }
+    }
+  ]
+}

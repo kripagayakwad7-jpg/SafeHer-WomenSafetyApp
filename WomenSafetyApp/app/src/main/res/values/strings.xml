@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SafeHer</string>
+    <string name="app_tagline">Your Safety, Our Priority</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="full_name">Full Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="dont_have_account">Don\'t have an account?</string>
+    <string name="already_have_account">Already have an account?</string>
+    <string name="welcome">Welcome</string>
+    <string name="sos">SOS</string>
+    <string name="sos_button">EMERGENCY SOS</string>
+    <string name="sos_description">Press and hold or shake your phone 3 times to trigger emergency alert</string>
+    <string name="trusted_contacts">Trusted Contacts</string>
+    <string name="sos_history">SOS History</string>
+    <string name="profile">Profile</string>
+    <string name="settings">Settings</string>
+    <string name="logout">Logout</string>
+    <string name="add_contact">Add Contact</string>
+    <string name="contact_name">Contact Name</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="shake_sos">Shake to SOS</string>
+    <string name="shake_sos_desc">Shake your phone 3 times to trigger emergency</string>
+    <string name="countdown_cancel">Cancel SOS</string>
+    <string name="sos_triggered">SOS Triggered!</string>
+    <string name="sending_alerts">Sending alerts to trusted contacts…</string>
+    <string name="no_contacts">No trusted contacts yet.\nAdd contacts to receive SOS alerts.</string>
+    <string name="no_sos_history">No SOS history yet.</string>
+    <string name="home_greeting">Stay Safe,</string>
+    <string name="quick_actions">Quick Actions</string>
+    <string name="emergency_call">Emergency Call</string>
+    <string name="share_location">Share Location</string>
+    <string name="delete">Delete</string>
+    <string name="location_permission_required">Location permission is required for SOS</string>
+    <string name="sms_permission_required">SMS permission is required to alert contacts</string>
+</resources>
